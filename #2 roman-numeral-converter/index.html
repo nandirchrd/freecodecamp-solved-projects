@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Numeral Converter</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+            color: aliceblue;
+            background-color: black;
+            overflow: hidden;
+            
+        }
+        .container{
+            border: 1px solid red;
+            text-align: center;
+        }
+        input:nth-child(2){
+            margin-top: 50px;
+            margin-bottom: 5px;
+        }
+        input{
+            border-radius: 10px;
+            border: none;
+            font-size: 2rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Masukan number 1 - 9999</h1>
+        <input id="input" type="text" placeholder="Masukan nomor"> <br>
+        <input id="output" readonly type="text">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
